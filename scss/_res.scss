@@ -1,0 +1,225 @@
+@media(max-width:992px){
+    .main {
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+        }
+
+        .col-5 {
+            order: -1;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .col-4 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+
+        .col-3 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+  
+    }
+    nav {
+        height: max-content;
+        color: #fff;
+        .img-nav{
+            display: grid;
+            place-items: center;
+             img{
+                 width: 40vw;
+                 display: block;
+             }
+         }
+        .d-flex {
+            display: block;
+        }
+    
+    }
+
+    header {
+        padding-top: 40px;
+
+        .logo {
+            img {
+                display: none;
+            }
+        }
+    }
+
+    .col-4 {
+        p {
+            span {
+                line-height: 18px;
+                font-size: 1rem;
+            }
+
+        }
+
+        .center {
+            display: none;
+        }
+    }
+    .visual,
+    .videos,
+    .last-news {
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            border-left: none;
+            border-right: none;
+
+            .col-3 {
+                flex: 0 0 50%;
+                max-width: 50%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .culture {
+       
+             .row{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .col-3 {
+                flex: 0 0 50%;
+                max-width: 50%;
+                margin-bottom: 20px;
+                .center{
+
+                    border-left: none;
+                    border-right: none;
+                }
+        }
+
+        }
+
+        .radio {
+            order: -1;
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+    }
+    .col-5{
+        .center{
+            border-left: none;
+            border-right: none;
+        }
+    }
+}
+
+
+@media(max-width:768px) {
+  .whats-new{
+      display: none;
+  }
+ .footer {
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .col-3 {
+                flex: 0 0 50%;
+                max-width: 50%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+   
+.aside-news,
+.center-news{
+    margin-bottom: 15px;
+}
+}
+
+@media(max-width:576px) {
+    .main {
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+        }
+
+        .col-5 {
+            order: -1;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .col-4 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .col-3 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    .visual,
+    .videos,
+    .last-news {
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .col-3 {
+                flex: 0 0 100%;
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .culture {
+       
+        .row{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+
+       .col-3 {
+           flex: 0 0 100%;
+           max-width: 100%;
+           place-items: center;
+           
+   }
+
+   }
+
+}
+.footer {
+    position: relative;
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        top: 50%;
+        left: 50%;
+        transition: transform(-50%,-50%);
+        .col-3 {
+            // flex: 0 0 100%;
+            // max-width: 100%;
+            margin-bottom: 20px;
+       display: flex;
+    //    justify-content: space-around;
+        }
+    }
+}
+
+}
